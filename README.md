@@ -1,4 +1,11 @@
 # Clone
+This is an online magazine which aims to broadcast worldwide news including the headlines/trendings, financial news, sports news, tech news and health science news.
+
+But the current aims is to broadcast the current Russia invassion event to Ukraine so don't deny to visit our platform since it gives you a realtime and the accuracy report from the truly world sources.
+
+In connection to that Clone magazine does not charges the visitor and the reader any cost, It only assures you with great bundle of news of your like in a real time as you use the clone.
+
+As clone magazine we don't collect any personal/user individual information hence we ensures you a maximum security when using a clone magazine.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.6.
 

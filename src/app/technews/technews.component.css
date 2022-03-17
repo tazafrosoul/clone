@@ -1,0 +1,21 @@
+.box{
+    padding: 0px;
+    border: 1px solid rgb(214, 214, 214);
+    /* display: block; */
+    width: 630px;
+    border-radius: 8px;
+    /* margin-left: 330px; */
+}
+
+.box h5{
+    font-size: 18px;
+    margin-left: 5px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+hr{
+    margin-top: 10px;
+}
