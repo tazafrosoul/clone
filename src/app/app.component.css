@@ -61,10 +61,31 @@
   background-color: rgb(163, 160, 182);
   margin-top: 16px;
 }
-.nav-item:hover{
+/* .nav-item:hover{
   background-color: rgb(163, 160, 182);
   border-radius: 08px;
-}
+} */
 /* .d-flex{
   margin-left: 17%;
+} */
+.zee{
+  height: 100px;
+}
+.zee:hover{
+  background-color: rgb(163, 160, 182);
+  border-radius: 8px;
+}
+/* @media only screen and (max-width: 600px) {
+  body{
+    background-color: lightblue;
+  }
+  .font-weight-bold .text-light{
+    display: none;
+  }
+  .rez{
+    display: none;
+  }
+  .live{
+    display: none;
+  }
 } */
