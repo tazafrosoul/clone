@@ -79,9 +79,6 @@
   body{
     background-color: lightblue;
   }
-  .font-weight-bold .text-light{
-    display: none;
-  }
   .rez{
     display: none;
   }
