@@ -70,6 +70,7 @@
 } */
 .zee{
   height: 100px;
+  font-size: 18px;
 }
 .zee:hover{
   background-color: rgb(163, 160, 182);
@@ -86,3 +87,6 @@
     display: none;
   }
 } */
+#juu{
+  position: static;
+}
