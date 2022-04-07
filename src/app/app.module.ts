@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule} from '@angular/forms';
+import { FormsModule } from '@angular/forms';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,6 +16,7 @@ import { BusinessnewsComponent } from './businessnews/businessnews.component';
 import { SportsnewsComponent } from './sportsnews/sportsnews.component';
 // for HttpClient import:
 import { LoadingBarHttpClientModule } from '@ngx-loading-bar/http-client';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -28,11 +32,14 @@ import { LoadingBarHttpClientModule } from '@ngx-loading-bar/http-client';
     FormsModule,
     AppRoutingModule, 
     HttpClientModule,
-    LoadingBarHttpClientModule  
+    LoadingBarHttpClientModule,
+    BrowserAnimationsModule,
+    MatToolbarModule, MatButtonModule
   ],
   providers: [NewsapiservicesService],
   bootstrap: [AppComponent],
-  exports: [ 
+  exports: [
+    MatToolbarModule
   ]
 })
 export class AppModule { }

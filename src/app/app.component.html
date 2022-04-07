@@ -1,44 +1,18 @@
-<nav class="navbar navbar-expand-lg  navbar-light bg-dark" id="juu">
-  <div class="container-fluid">
-    <a class="navbar-brand" [routerLink]="['/home']" routerLinkActive="active">
-    <img src="https://bootstrapious.com/i/snippets/sn-nav-logo/logo.png" width="40" alt="" class="d-inline-block" style="margin-left: 10%;">
-    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="font-weight-bold text-light" style="margin-left: 50%; font-weight: bold; font-family: Comic Sans;">CloneNews</span>
-    </button> -->
+<mat-toolbar color="accent" class="nav-bar">
+  <a mat-button [routerLink]="['/home']" routerLinkActive="active">
+    <img src="https://bootstrapious.com/i/snippets/sn-nav-logo/logo.png" width="40" style="margin-left: 10%;">
+    <span style="margin-left: 10%;">CloneMedia</span>
+  </a>
 
-    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-      <span class="navbar-toggler-icon">CloneMedia</span>
-  </button>
-   </a>
+  <span style="flex: 1 1 auto;"></span>
 
-  <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+  <a mat-stroked-button class="btn-space" [routerLink]="['/home']" routerLinkActive="active">Home</a>
+  <a mat-stroked-button class="btn-space" [routerLink]="['/tech']" routerLinkActive="active">Technology</a>
+  <a mat-stroked-button class="btn-space" [routerLink]="['/business']" routerLinkActive="active">Business</a>
+  <a mat-stroked-button class="btn-space" [routerLink]="['/sports']" routerLinkActive="active">Sports</a>
+  <a mat-stroked-button class="btn-space" href="https://chat.whatsapp.com/LLPUJmc4kxtGzExI6mdMTA">CloneMedia</a>
+</mat-toolbar>
 
-    <!-- <form class="d-flex">
-      <input class="form-control me-2 search-icon" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit" style="background-color: rgb(213, 223, 214); text-align: center;">Search</button>
-    </form> -->
-    
-    <div class="navbar-right" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active text-light" aria-current="page" [routerLink]="['/home']" routerLinkActive="active"><div class="zee" style="height: fit-content; width: fit-content; border: 1px solid rgb(106, 106, 106); border-radius: 8px;">Home</div></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active text-light" aria-current="page" [routerLink]="['/tech']" routerLinkActive="active"><div class="zee" style="height: fit-content; width: fit-content; border: 1px solid rgb(106, 106, 106); border-radius: 8px;">Technology</div></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active text-light" aria-current="page" [routerLink]="['/business']" routerLinkActive="active"><div class="zee" style="height: fit-content; width: fit-content; border: 1px solid rgb(106, 106, 106); border-radius: 8px;">Business</div></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active text-light" aria-current="page" [routerLink]="['/sports']" routerLinkActive="active"><div class="zee" style="height: fit-content; width: fit-content; border: 1px solid rgb(106, 106, 106); border-radius: 8px;">Drama</div></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active text-light" aria-current="page" href="https://chat.whatsapp.com/LLPUJmc4kxtGzExI6mdMTA"><div class="zee" style="height: fit-content; width: fit-content; border: 1px solid rgb(106, 106, 106); border-radius: 8px;">CloneMedia</div></a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
 
 <router-outlet></router-outlet>
 
