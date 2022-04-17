@@ -1,8 +1,13 @@
-.btn-space{
-  margin-right: 10px;
-}
+
 
 .nav-bar{
   top: 0;
   position: fixed;
+  height: 40px;
+}
+
+.split-bar{
+  border: .5px solid rgba(158, 3, 255, 0.359);
+  border-radius: 2px;
+  height: 80%;
 }

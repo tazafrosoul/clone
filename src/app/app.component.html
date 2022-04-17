@@ -1,16 +1,20 @@
-<mat-toolbar color="accent" class="nav-bar">
+<mat-toolbar color="primary" class="nav-bar">
   <a mat-button [routerLink]="['/home']" routerLinkActive="active">
-    <img src="https://bootstrapious.com/i/snippets/sn-nav-logo/logo.png" width="40" style="margin-left: 10%;">
+    <img src="https://bootstrapious.com/i/snippets/sn-nav-logo/logo.png" width="20" >
     <span style="margin-left: 10%;">CloneMedia</span>
   </a>
+  <div class="split-bar"></div>
 
   <span style="flex: 1 1 auto;"></span>
 
-  <a mat-stroked-button class="btn-space" [routerLink]="['/home']" routerLinkActive="active">Home</a>
-  <a mat-stroked-button class="btn-space" [routerLink]="['/tech']" routerLinkActive="active">Technology</a>
-  <a mat-stroked-button class="btn-space" [routerLink]="['/business']" routerLinkActive="active">Business</a>
-  <a mat-stroked-button class="btn-space" [routerLink]="['/sports']" routerLinkActive="active">Sports</a>
-  <a mat-stroked-button class="btn-space" href="https://chat.whatsapp.com/LLPUJmc4kxtGzExI6mdMTA">CloneMedia</a>
+  <!-- TODO: implement search -->
+  <div class="split-bar"></div><a mat-button class="btn-space" href="#"><i class="material-icons">search</i></a>
+
+
+  <div class="split-bar"></div><a mat-button class="btn-space" [routerLink]="['/tech']" routerLinkActive="active">Technology</a>
+  <div class="split-bar"></div><a mat-button class="btn-space" [routerLink]="['/business']" routerLinkActive="active">Business</a>
+  <div class="split-bar"></div><a mat-button class="btn-space" [routerLink]="['/sports']" routerLinkActive="active">Sports</a>
+  <div class="split-bar"></div><a mat-button class="btn-space" href="https://chat.whatsapp.com/LLPUJmc4kxtGzExI6mdMTA">CloneMedia</a>
 </mat-toolbar>
 
 
