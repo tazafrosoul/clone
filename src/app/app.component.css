@@ -11,3 +11,11 @@
   border-radius: 2px;
   height: 80%;
 }
+
+.btn-space {
+  color: white;
+}
+
+.container {
+  display: inline;
+}

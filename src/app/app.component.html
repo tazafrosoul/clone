@@ -1,44 +1,49 @@
-<mat-toolbar color="primary" class="nav-bar">
-  <a mat-button [routerLink]="['/home']" routerLinkActive="active">
-    <img src="https://bootstrapious.com/i/snippets/sn-nav-logo/logo.png" width="20" >
-    <span style="margin-left: 10%;">CloneMedia</span>
-  </a>
-  <div class="split-bar"></div>
 
-  <span style="flex: 1 1 auto;"></span>
+<div class="container">
+  
+    <mat-toolbar color="primary" class="nav-bar">
+      <a mat-button [routerLink]="['/home']" routerLinkActive="active">
+        <img src="https://bootstrapious.com/i/snippets/sn-nav-logo/logo.png" width="20" >
+        <span style="margin-left: 10%; color: whitesmoke;">The Clone</span>
+      </a>
+      <div class="split-bar"></div>
 
-  <!-- TODO: implement search -->
-  <div class="split-bar"></div><a mat-button class="btn-space" href="#"><i class="material-icons">search</i></a>
+      <span style="flex: 1 1 auto;"></span>
+
+      <!-- TODO: implement search -->
+      <div class="split-bar"></div><a mat-button class="btn-space" href="#"><i class="material-icons">search</i></a>
+
+      <div class="split-bar"></div><a mat-button class="btn-space" [routerLink]="['/news']" routerLinkActive="active">NEWS</a>
+      <div class="split-bar"></div><a mat-button class="btn-space" [routerLink]="['/business']" routerLinkActive="active">BUSINESS</a>
+      <div class="split-bar"></div><a mat-button class="btn-space" [routerLink]="['/sports']" routerLinkActive="active">SPORTS</a>
+      <div class="split-bar"></div><a mat-button class="btn-space" [routerLink]="['/tech']" routerLinkActive="active">TECHNOLOGY</a>
+      
+    </mat-toolbar>
+ 
 
 
-  <div class="split-bar"></div><a mat-button class="btn-space" [routerLink]="['/tech']" routerLinkActive="active">Technology</a>
-  <div class="split-bar"></div><a mat-button class="btn-space" [routerLink]="['/business']" routerLinkActive="active">Business</a>
-  <div class="split-bar"></div><a mat-button class="btn-space" [routerLink]="['/sports']" routerLinkActive="active">Sports</a>
-  <div class="split-bar"></div><a mat-button class="btn-space" href="https://chat.whatsapp.com/LLPUJmc4kxtGzExI6mdMTA">CloneMedia</a>
-</mat-toolbar>
+  <router-outlet></router-outlet>
 
-
-<router-outlet></router-outlet>
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<div class="sells">
-    <a href="#juu" routerLinkActive="active" class="fa fa-arrow-up" ></a>
-</div>
-
-<footer class="mt-3" style="text-align: center;">
-  <div class="live">
-    <ul id="menu">
-      <button class="btn"><i class="fa fa-youtube" style="width: 40px; height: 30px;"></i>CloneMedia</button>
-      <button class="btn"><i class="fa fa-rss" style="width: 40px;"></i> Stream</button>
-      <button class="btn"><i class="fa fa-car" style="width: 40px;"></i> Ober</button>
-    </ul>  
-  </div>
-  <br>
-  <p class="rez">Copyright ©2022 RemSeeTz. All Right Reserved.</p>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <a href="https://web.facebook.com/remmyemmil/" class="fa fa-facebook"></a>
-      <a href="https://twitter.com/RemmyEmmily" class="fa fa-twitter"></a>
-      <a href="https://www.instagram.com/officialrem_/" class="fa fa-instagram"></a>
-      <a href="https://www.linkedin.com/in/remmy-emmily-7779481a2/" class="fa fa-linkedin"></a>
-  <br><br>
-</footer>
+  <div class="sells">
+      <a href="#juu" routerLinkActive="active" class="fa fa-arrow-up" ></a>
+  </div>
+
+  <footer class="mt-3" style="text-align: center;">
+    <div class="live">
+      <ul id="menu">
+        <button class="btn"><i class="fa fa-youtube" style="width: 40px; height: 30px;"></i>CloneMedia</button>
+        <button class="btn"><i class="fa fa-rss" style="width: 40px;"></i> Stream</button>
+        <button class="btn"><i class="fa fa-car" style="width: 40px;"></i> Ober</button>
+      </ul>  
+    </div>
+    <br>
+    <p class="rez">Copyright ©2022 RemSeeTz. All Right Reserved.</p>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <a href="https://web.facebook.com/remmyemmil/" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/RemmyEmmily" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/officialrem_/" class="fa fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/remmy-emmily-7779481a2/" class="fa fa-linkedin"></a>
+    <br><br>
+  </footer>
+</div>
