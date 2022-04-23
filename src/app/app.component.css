@@ -1,29 +1,40 @@
 
 
 .nav-bar{
+  background-color: #141818;
+  text-decoration: none;
   width: 100%;
   top: 0;
   position: fixed;
   height: 40px;
   z-index: 10;
-  box-shadow: 0 1px 10px 2px rgb(86, 84, 84);
+  box-shadow: 0 1px 20px -5px rgb(19, 19, 19);
+}
+
+.title{
+  text-decoration: none;
 }
 
 .split-bar{
-  border: .5px solid rgba(158, 3, 255, 0.359);
+  border: .5px solid rgba(255, 3, 28, 0.359);
   border-radius: 2px;
   height: 80%;
 }
 
 .btn-space {
   color: white;
+  text-decoration: none;
 }
 
 .container {
   display: inline;
 }
 footer{
-  width: 100%;
+  position: relative;width: 100%;
   text-align: center;
   background-color: yellow;
+}
+.toolbar-spacer{
+  position: relative;
+  top: 40px;
 }

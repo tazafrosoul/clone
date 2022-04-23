@@ -1,9 +1,9 @@
 
 <div class="container">
   
-    <mat-toolbar color="primary" class="nav-bar">
-      <a mat-button [routerLink]="['/home']" routerLinkActive="active">
-        <img src="https://bootstrapious.com/i/snippets/sn-nav-logo/logo.png" width="20" >
+    <mat-toolbar class="nav-bar">
+      <a mat-button class="title" [routerLink]="['/home']" routerLinkActive="active">
+        <img src="../assets/logo/clone 2.png" width="50" >
         <span style="margin-left: 10%; color: whitesmoke;">The Clone</span>
       </a>
       <div class="split-bar"></div>
@@ -20,26 +20,27 @@
       
     </mat-toolbar>
  
+  <div class="toolbar-spacer">
+    <router-outlet></router-outlet>
+    
+    <footer>
+      <div class="live">
+        <ul id="menu">
+          <button class="btn"><i class="fa fa-youtube" style="width: 40px; height: 30px;"></i>CloneMedia</button>
+          <button class="btn"><i class="fa fa-rss" style="width: 40px;"></i> Stream</button>
+          <button class="btn"><i class="fa fa-car" style="width: 40px;"></i> Ober</button>
+        </ul>  
+      </div>
+  
+      <p class="rez">Copyright ©2022 RemSeeTz. All Right Reserved.</p>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <a href="https://web.facebook.com/remmyemmil/" class="fa fa-facebook"></a>
+          <a href="https://twitter.com/RemmyEmmily" class="fa fa-twitter"></a>
+          <a href="https://www.instagram.com/officialrem_/" class="fa fa-instagram"></a>
+          <a href="https://www.linkedin.com/in/remmy-emmily-7779481a2/" class="fa fa-linkedin"></a>
+  
+    </footer>
+    
+  </div>
 
-
-  <router-outlet></router-outlet>
-
-
-  <footer>
-    <div class="live">
-      <ul id="menu">
-        <button class="btn"><i class="fa fa-youtube" style="width: 40px; height: 30px;"></i>CloneMedia</button>
-        <button class="btn"><i class="fa fa-rss" style="width: 40px;"></i> Stream</button>
-        <button class="btn"><i class="fa fa-car" style="width: 40px;"></i> Ober</button>
-      </ul>  
-    </div>
-
-    <p class="rez">Copyright ©2022 RemSeeTz. All Right Reserved.</p>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <a href="https://web.facebook.com/remmyemmil/" class="fa fa-facebook"></a>
-        <a href="https://twitter.com/RemmyEmmily" class="fa fa-twitter"></a>
-        <a href="https://www.instagram.com/officialrem_/" class="fa fa-instagram"></a>
-        <a href="https://www.linkedin.com/in/remmy-emmily-7779481a2/" class="fa fa-linkedin"></a>
-
-  </footer>
 </div>
