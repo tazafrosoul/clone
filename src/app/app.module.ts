@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
-import { MaterialModule } from "./material/material.module";
+import { MaterialModule } from "./modules/material/material.module";
 
 import { NewsComponent } from './news/news.component';
 import { TopheadingComponent } from './topheading/topheading.component';
