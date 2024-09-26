@@ -1,92 +1,40 @@
-/* Style all font awesome icons */
-.fa {
-  padding: 15px;
-  font-size: 10px;
-  width: 10px;
-  text-align: center;
+
+
+.nav-bar{
+  background-color: #141818;
   text-decoration: none;
-  color: black;
-  height: 10px;
-}
-  
-  /* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  height: 40px;
+  z-index: 10;
+  box-shadow: 0 1px 20px -5px rgb(19, 19, 19);
 }
 
-.fa {
-  padding: 15px;
-  font-size: 18px;
-  width: 10px;
-  text-align: center;
+.title{
   text-decoration: none;
-  border-radius: 50%;
-}
-  
-.sells{
-  display: flex;
-  border: 1px solid rgb(158, 158, 158);
-  width: 46px;
-  height: 47px;
-  float: right;
-  /* margin-left: 1310px; */
-  border-radius: 50px;
-  background-color: blue;
-}
-.live{
-  margin-top: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid rgb(216, 216, 216);
-  background-color: rgb(190, 210, 211);
-  height: 68px;
-}
-.live .ul{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-/* Style buttons */
-.btn {
-  border: none; /* Remove borders */
-  padding: 12px 60px;
-  font-size: 16px; /* Set a font size */
-  cursor: pointer; /* Mouse pointer on hover */
-  align-items: center;
 }
 
-/* Darker background on mouse-over */
-.btn:hover {
-  background-color: rgb(163, 160, 182);
-  margin-top: 16px;
+.split-bar{
+  border: .5px solid rgba(255, 3, 28, 0.359);
+  border-radius: 2px;
+  height: 80%;
 }
-/* .nav-item:hover{
-  background-color: rgb(163, 160, 182);
-  border-radius: 08px;
-} */
-/* .d-flex{
-  margin-left: 17%;
-} */
-.zee{
-  height: 100px;
-  font-size: 18px;
+
+.btn-space {
+  color: white;
+  text-decoration: none;
 }
-.zee:hover{
-  background-color: rgb(163, 160, 182);
-  border-radius: 8px;
+
+.container {
+  display: inline;
 }
-/* @media only screen and (max-width: 600px) {
-  body{
-    background-color: lightblue;
-  }
-  .rez{
-    display: none;
-  }
-  .live{
-    display: none;
-  }
-} */
-#juu{
-  position: static;
+footer{
+  position: relative;width: 100%;
+  text-align: center;
+  background-color: yellow;
+}
+.toolbar-spacer{
+  position: relative;
+  top: 20px;
 }
